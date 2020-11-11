@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Kalam:wght@700&family=Piazzolla:ital,wght@1,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="later()" style="margin: 0px !important">
+
+  <!-- Ayesha's Part begin -->
+  <div class="landing" id="landing">
+    <header class="v-header container">
+      <div class="fullscreen-video-wrap"><video src="videos/droneshot.mp4" autoplay loop muted id="video1"></video></div>
+      <div class="header-overlay">
+        <div class="navbar">
+
+          <div class="navbar_elem">
+
+            <div class="left">
+              <li><span onclick="openNav()" ><img id="social" src="images/menu.png" alt="#" width="30px" style="padding-top: 10px;"></span></li>
+              <li id="nyulogo"><a href="index.html"><img id="heroImg" src="images/nyuad-logo.png" alt="" height="50px" style="padding-top: 10px;"></a></li>
+            </div>
+
+            <div class="right">
+              <a href="#philosophy" id="phil_link">
+                <li class="navlinks" style="font-size:18px;">Inspiration</li>
+              </a>
+              <a href="#about" id="about_link">
+                <li class="navlinks" style="font-size:18px;">About Us</li>
+              </a>
+              <li><a href="https://nyuad.nyu.edu/en/" target="_blank"><img id="social" src="images/nyuad-icon.jpg" alt="#" width="40px" style="padding: 10px;"></a></li>
+              <li><a href="https://www.facebook.com/NYUAD/" target="_blank"><img id="social" src="images/facebook-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+              <li><a href="https://www.instagram.com/nyuabudhabi/?hl=en" target="_blank"><img id="social" src="images/instagram-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+              <li><a href="https://twitter.com/NYUAbuDhabi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img id="social" src="images/twitter.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+            </div>
+
+          </div>
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#outdoors" id="tour00"><span onclick="openSubMenu1()">Outdoors &#187;</span></a>
+            <a href="#studyspots" id="tour01"><span onclick="openSubMenu3()">Study Spots &#187;</span></a>
+            <a href="#diningfitness" id="tour02"><span onclick="openSubMenu2()">Dining & Fitness &#187;</span></a>
+          </div>
+          <div id="mySidenav2" class="sidenav2">
+
+            <div id="subMenu01">
+              <a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+              <a href="welcomecenter-day.html" class="navlinks"><span>Welcome Center</span></a> <br>
+              <a href="highline-day.html" class="navlinks"><span>Highline</span></a> <br>
+              <a href="palms-day.html" class="navlinks"><span>Palms</span></a> <br>
+            </div>
+
+            <div id="subMenu02"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()"> &#60;</a>
+              <a href="marketplace-day.html"><span>Marketplace</span></a> <br>
+              <a href="d2-day.html"><span>Dining Hall (D2)</span></a> <br>
+              <a href="fitness-day.html"><span>Fitness Center</span></a> <br>
+            </div>
+
+            <div id="subMenu03"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+              <a href="marketplace-day.html"><span>Marketplace</span></a> <br>
+              <a href="library-day.html"><span>Library</span></a> <br>
+              <a href="librarycafe-day.html"><span>Library Cafe</span></a> <br>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="header-content">
+        <div id="header-text">
+          <!-- <h1>Welcome to</h1> -->
+          <h1 class="ml5">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters letters-left">NYUAD's </span>
+              <!-- <span class="letters ampersand"></span> -->
+              <span class="letters letters-right">Audio-Visual Tour</span>
+              <span class="line line2"></span>
+            </span>
+          </h1>
+          <!-- <h1></h1> -->
+
+          <!-- <h1></h1> -->
+          <!-- <p>- a place we call our home!</p> -->
+          <h1 class="ml10">
+            <span class="text-wrapper">
+              <p> <span class="letters">~a place we call home!</span></p>
+            </span>
+          </h1>
+          <a href="#panelWelcome" class="mainBtn" id="mainBtn" >Lets Begin!</a>
+          <a class="mainBtn2" href="videos/droneshot.mp4" target="_blank">Watch Video</a>
+          
+        </div>
+
+      </div>
+    </header>
+  </div>
+
+  <!-- Ayesha's Part end -->
+
+
+
+  <!-- WELCOME PANEL -->
+
+  <div class="panel welcome" id="panelWelcome">
+    <div class="section-header">
+      <h2 class="section-heading">Welcome!</h2>
+    </div>
+    <div class="section-content">
+      <h4 class="section-sub">Welcome to the Audio Visual Tour of the NYU Abu Dhabi - a place we call our Home!</h4>
+      <p>Are you physically away from the campus, but have it in your heart?
+        Do you miss the liveliness of marketplace while you eat, the chirping at Palms during sunset,
+        the enthusiasm at the jym, or the soothing energy at the highline?
+      </p>
+      <p>OR Do you want to experience how life on campus is?</p>
+      <p>This tour takes you on a uniquely immersive virtual ride across our Campus!</p>
+      <p><b>Step 1:</b> Choose from a category of following locations on campus:
+      <ul>
+        <li style="text-decoration: underline;"><a href="#outdoors" id="tour2">Outdoors</a></li>
+        <li style="text-decoration: underline;"><a href="#studyspots" id="tour3">Indoors</a></li>
+        <li style="text-decoration: underline;"><a href="#diningfitness" id="tour4">Dining and Fitness</a></li>
+      </ul>
+      </p>
+      <p><b>Step 2:</b> Explore the map and choose where you want to be</p>
+      <p><b>Step 3:</b> Immerse yourself in the 360 Degree view and sounds from the location!</p>
+
+    </div>
+
+  </div>
+
+
+  <!-- WELCOME PANEL -->
+
+
+  <div class="section-1 tour" id="outdoors">
+
+    <div class="section-header">
+      <h2>OUTDOORS</h2>
+    </div>
+
+    <div class="container">
+
+      <iframe onload="onMyFrameLoad()" class="map" src="https://tour.concept3d.com/share/m0F397hWp/stop/1?mv" border="0" scroll="no" allowfullscreen allow="geolocation"> Your browser does not support Iframes </iframe>
+
+      <div class="hider">
+      </div>
+
+    </div>
+
+    <div class="section-locations">
+      <div class="locations-container">
+
+        <div class="location" id="palms">
+          <!-- <img src="images/download.jpeg" alt=""> -->
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="highline">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="welcomecenter">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- <img class="image-36" src="images/download.jpeg" alt=""> -->
+    <audio class="audio-360" src="sounds/highline.mp3" controls autoplay>
+    </audio>
+
+  </div>
+
+  <div class="section-1 tour" id="studyspots">
+
+    <div class="section-header">
+      <h2>STUDY SPOTS</h2>
+    </div>
+
+    <div class="container">
+
+      <iframe onload="onMyFrameLoad()" class="map" src="https://tour.concept3d.com/share/KTGGevaHa/stop/1?mv" border="0" scroll="no" allowfullscreen allow="geolocation"> Your browser does not support Iframes </iframe>
+
+      <div class="hider">
+      </div>
+
+    </div>
+
+    <div class="section-locations">
+      <div class="locations-container">
+
+        <div class="location" id="library">
+          <!-- <img src="images/download.jpeg" alt=""> -->
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="librarycafe">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="marketplace">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- <img class="image-36" src="images/download.jpeg" alt=""> -->
+    <audio class="audio-360" src="sounds/highline.mp3" autoplay>
+    </audio>
+
+  </div>
+
+
+  <div class="section-1 tour" id="diningfitness">
+
+    <div class="section-header">
+      <h2>DINING AND FITNESS</h2>
+    </div>
+
+    <div class="container">
+
+      <iframe onload="onMyFrameLoad()" class="map" src="https://tour.concept3d.com/share/vFJbCysfR/stop/1?mv" border="0" scroll="no" allowfullscreen allow="geolocation"> Your browser does not support Iframes </iframe>
+
+      <div class="hider">
+      </div>
+
+    </div>
+
+    <div class="section-locations">
+      <div class="locations-container">
+
+        <div class="location" id="d2">
+          <!-- <img src="images/download.jpeg" alt=""> -->
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="fitness">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+        <div class="location" id="marketplace">
+          <span class="location-hover">
+            <div class="location-content">
+              <a href="location.html">
+                <h2 class="location-name btn-2">THE PALMS</h2>
+              </a>
+              <p class="location-description">The signature 36 palms of NYUAD welcome all visitors on campus. The palms stand strong in the face of the cruel Abu dhabi weather and are aligned in perfect harmony; this depicts the resilience.</p>
+            </div>
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- <img class="image-36" src="images/download.jpeg" alt=""> -->
+    <audio class="audio-360" src="sounds/highline.mp3" controls autoplay>
+    </audio>
+
+  </div>
+
+
+
+
+  <!-- Philosophy Section -->
+
+  <div class="panel philosophy" id="philosophy">
+    <div class="section-header">
+      <h2 class="section-heading">Inspiration</h2>
+    </div>
+    <div class="section-content">
+      <h4 class="section-sub">It is you who inspired us to the idea!</h4>
+      <p>The pandamic has taken alot on all of us.
+      </p>
+      <p>It may have changed our world in many ways, but a thing that remains constant is our love and sense of belonging to our home - The NYU Abu Dhabi Campus</p>
+      <p>While some have access to life on campus, many of our friends and community members miss being at their favorite spots on campus.</p>
+      <p>We made this Audio-visual experience of our campus, to bring the campus experience to your screen. Just choose your spot, and play it's sound in your background. With a 360 Degree view, and sounds from the location, you can feel you are at
+        the D2 while you eat, at the Library Cafe while you study, and at the Fitness Center while you workout!</p>
+
+    </div>
+
+  </div>
+
+
+  <!-- About Us Section -->
+
+  <div class="panel about" id="about">
+    <div class="section-header">
+      <h2 class="section-heading" id="about">About Us</h2>
+    </div>
+    <div class="section-content">
+      <h4 class="section-sub">Hello!</h4>
+      <p>The 2 of us worked on this project.</p>
+      <p>I hope you enjoyed the work and effort we put into this!</p>
+      <p>Please feel free to connect, or send in any feedbacks on this project.</p>
+
+      <div class="about-holder">
+        <div class="us ayesha">
+          <img class="display" src="images/ayesha1.png" alt="">
+          <h3 class="name">Ayesha Zafar</h3>
+          <p><b>Major:</b> Computer Science</p>
+          <div class="icons-holder">
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/linkedin.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/facebook.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/github.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/instagram.png" alt=""> </a>
+          </div>
+          <a class="btn-1" href="mailto:manasgadar@gmail.com">MESSAGE ME</a><br>
+        </div>
+
+        <div class="us anas">
+          <img class="display" src="images/anas1.png" alt="">
+          <h3 class="name">Muhammad Anas</h3>
+          <p><b>Major:</b> Computer Science</p>
+          <div class="icons-holder">
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/linkedin.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/facebook.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/github.png" alt=""> </a>
+            <a href="https://www.youtube.com/watch?v=m1hJAhJ7_Wo"><img src="images/instagram.png" alt=""> </a>
+          </div>
+          <a class="btn-1" href="mailto:manasgadar@gmail.com">MESSAGE ME</a><br>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Abou Us Section -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
