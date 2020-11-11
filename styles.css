@@ -1,4 +1,4 @@
-@font-face 
+@font-face
 {
   font-family: 'Gotham';
   src: url(Gotham_Book_Regular.otf);
@@ -269,7 +269,7 @@ a
   height: 50px;
   position: relative;
   z-index: 1000;
-  
+
 }
 
 .navbar_elem
@@ -361,7 +361,7 @@ a
   color: #57068c;
   display: block;
   transition: 0.3s;
-  
+
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -558,7 +558,7 @@ video {
 
 /* Location page  */
 .img-box {
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
   margin-top: -60px;
@@ -812,7 +812,7 @@ background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(245,245,245,1) 5
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  
+
 }
 
 
