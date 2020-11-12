@@ -585,22 +585,27 @@ video {
 {
   z-index: 5;
   bottom: 150px;
+  width: 45px;
+
 }
 
 .day
 {
   top: 150px;
+  width: 45px;
+
 }
 
 .night
 {
   top: 205px;
+  width: 45px;
+
 }
 
 .btn
 {
   position: absolute;
-  width: 45px;
   right: 30px;
 }
 
