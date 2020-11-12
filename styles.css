@@ -723,6 +723,7 @@ video {
 
 /* Location page  */
 
+/* panel for welcome, inspiration and about us sections */
 .panel{
   width: 75%;
   position: relative;
@@ -731,65 +732,62 @@ video {
   color: #58008E;
   background-color: white;
   border-radius: 10px;
-
 }
 .welcome{
   height: auto;
   /* background-color: grey; */
 }
 
+/* panel heading section */
 .panel .section-header
 {
   background-color: white;
   color: #58008E;
   margin-bottom: -50px;
-
-
 }
 
+/* for panel lists */
 .panel li a
 {
   color: #58008E;
 }
 
+/* content in the section */
 .section-content
 {
   width: 75%;
   position: relative;
   margin: auto;
-  /* font-family: '"'Gotham' SSm A","'Gotham' SSm B"'; */
   font-family: 'Gotham';
   color: #3c0160;
-
   font-size: 1.05rem;
 }
+
+/* subheading in the section */
 .section-sub
 {
-  /* font-style: italic; */
   font-size: 1.5rem;
 }
 
+/* about us section center aligned */
 .about .section-content
 {
   text-align: center;
-
 }
 
+/* holder for 2 contact persons */
 .about-holder {
   margin-top: 70px;
-
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
-
 }
 
+/* contact personal info section */
 .us {
-  /* background-color: #f1f1f1; */
   margin: auto;
   text-align: center;
   line-height: 0.5;
-
 }
 
 .ayesha
