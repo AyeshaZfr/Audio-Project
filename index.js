@@ -55,6 +55,13 @@ $(".location").hover(function() {
   a.pause();
 });
 
+$(".location-name").click(function()
+{
+  a.pause();
+});
+
+
+
 
 var c = false;
 // $(".audio-360").attr("controls", true);
