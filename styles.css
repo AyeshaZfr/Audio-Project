@@ -244,26 +244,10 @@ a
 
 /* --------------------------------------- */
 /* Ayesha's part begins */
-/* iframe{
-    height: 400px;
-    width: 75%;
-    display: block;
-    margin: 50px;
-    position: relative;
-}
-
-.section-sidebar
-{
-  width: 15%;
-  display: block;
-  margin: 50px;
-  position: relative;
-  float: right;
-} */
 
 /* The side navigation menu */
 
-
+/* basic landing page structure */
 .navbar
 {
   vertical-align: middle;
@@ -301,6 +285,7 @@ a
 }
 .navbar_elem .right
 {
+  display: inline;
   width: 50%;
   text-align: right;
   margin-right: 2.5%;
@@ -314,6 +299,22 @@ a
   position: relative;
   z-index: 1000;
 }
+.navlinks{
+  color: black;
+  text-decoration: solid underline transparent;
+  transition: text-decoration 1s ease;
+  font-weight: bold;
+}
+
+.navlinks:hover
+{
+  color: #2b0346;
+  transform: scale(1.5);
+  text-decoration: underline;
+}
+
+
+/* side naviagtion menu structure */
 
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -341,8 +342,48 @@ a
   padding-top: 150px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+/*
+.menuBtnOff, #home:hover .menuBtnOn{
+  display:none
+}
+.menuBtnOn, #home:hover .menuBtnOff{
+  display:inline-block;} */
 
-/* The navigation menu links */
+.menuBtnOff:hover{
+  cursor: pointer;
+}
+
+
+/* CHANGE IMAGE/IMAGE COLOR ON HOVER IN THE ICONS PLACED IN THE NAVBAR */
+.socialFb_off, #home:hover .socialFb_on{
+  display:none;
+}
+.socialFb_on, #home:hover .socialFb_off{
+  display:inline-block;
+}
+.socialInsta_off, #home:hover .socialInsta_on{
+  display:none;
+}
+.socialInsta_on, #home:hover .socialInsta_off{
+  display:inline-block;
+}
+.socialTwtr_off, #home:hover .socialTwtr_on{
+  display:none;
+
+}
+.socialTwtr_on, #home:hover .socialTwtr_off{
+  display:inline-block;
+}
+
+#social_logo{
+  filter:grayscale(1);
+}
+
+#social_logo:hover{
+  filter:grayscale(0);
+  /* transform: scale(1.5); */
+}
+/* The SIDE navigation menu links */
 .sidenav a {
   padding: 30px 8px 8px 32px;
   text-decoration: none;
@@ -413,7 +454,8 @@ video {
   height:100vh;
   /* overflow:hidden; */
 }
-
+/* --------------------------------------- */
+/* landing page video and video content over lay CSS */
 .v-header{
   height:100vh;
   display:flex;
@@ -453,6 +495,7 @@ video {
   margin-bottom: 20px;
   margin-top:10px;
 }
+/* MAX WIDTHS TO MAKE SURE WEBSITE LOOKS FINE AT DIFFERENT BROWSER WIDTHS */
 @media(max-width: 890px)
 {
   #header-content h1{
@@ -470,10 +513,7 @@ video {
     margin-top:10px;
   }
 }
-
-
-
-
+/* CONTENT IN HEADER STYLES */
 #header-content p{
   font-size:1.5rem;
   display:block;
@@ -484,13 +524,11 @@ video {
 }
 
 
-
 .mainBtn, .mainBtn2{
   /* background: #34b3a0; */
-  /* border-style: dashed; */
+  border-style: solid ;
+  border-width: thin;
   color: white;
-  border: none;
-  background-color: rgba(120, 64, 153, 0.3);;
   font-size:22px;
   padding: 20px;
   margin: 10px;
@@ -500,15 +538,19 @@ video {
 }
 .mainBtn:hover
 {
-  border-color: #2b0346;
-  background: #2b0346;
+  /* border-color: #2b0346;
+  background: #2b0346; */
+  border-color: black;
+  background: black;
   color: white;
 }
 
 .mainBtn2:hover
 {
-  border-color: #2b0346;
-  background: #2b0346;
+  /* border-color: #2b0346;
+  background: #2b0346; */
+  border-color: black;
+  background: black;
   color: white;
 }
 
@@ -539,24 +581,107 @@ video {
 .backbtn {
   z-index: 10;
 }
-
-.navlinks{
-  color: #F2F2F2;
-  text-decoration: solid underline transparent;
-  transition: text-decoration 1s ease;
-  font-weight: bolder;
-}
-
-.navlinks:hover
-{
+/* ----------------------------------------- */
+/* ANIMATIONS  */
+.ml5 {
+  position: relative;
+  font-weight: 500;
+  font-size: 50px;
   color: white;
-  transform: scale(1.5);
-  text-decoration: underline;
-/* transition: text-decoration 1s ease; */
-
+  text-shadow: 2px 2px 2px #2b0346;
 }
 
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  /* padding-bottom: 0.15em; */
+  line-height: 1em;
+}
 
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: 'Gotham';
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+/* ------------ */
+
+.ml10 {
+  position: relative;
+  margin-left: 35%;
+  /* font-weight: 900; */
+  /* font-size: 1em; */
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  /* padding-top: 0.2em; */
+  padding-right: 0.05em;
+  margin-top:0px;
+  /* padding-bottom: 0.1em; */
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+/* #tour
+{
+  text-decoration: underline;
+} */
+/* ----------------------------------------- */
+/* LINKS TO REDIRECT USER TO RELEVANT DIVS/PARTS OF THE WHOLE LANDING PAGE */
+#about, #philosophy, #diningfitness, #studyspots, #outdoors, #panelWelcome
+{
+  display: none;
+}
+#topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #008ba9; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 1000px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: white;
+  color: #2b0346;/* Add a dark-grey background on hover */
+}
+
+ /* ----------------------------------------------
+ Ayesha's part ends */
 /* Location page  */
 .img-box {
   height: 100vh;
@@ -824,84 +949,4 @@ background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(245,245,245,1) 5
   text-decoration: none;
   color: white;
 
-}
-
-
-
-/* About us */
-
-.ml5 {
-  position: relative;
-  font-weight: 500;
-  font-size: 50px;
-  color: white;
-  text-shadow: 2px 2px 2px #2b0346;
-}
-
-.ml5 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  /* padding-bottom: 0.15em; */
-  line-height: 1em;
-}
-
-.ml5 .line {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  transform-origin: 0.5 0;
-}
-
-.ml5 .ampersand {
-  font-family: 'Gotham';
-  font-style: italic;
-  font-weight: 400;
-  width: 1em;
-  margin-right: -0.1em;
-  margin-left: -0.1em;
-}
-
-.ml5 .letters {
-  display: inline-block;
-  opacity: 0;
-}
-/* ------------ */
-
-.ml10 {
-  position: relative;
-  margin-left: 35%;
-  /* font-weight: 900; */
-  /* font-size: 1em; */
-}
-
-.ml10 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  /* padding-top: 0.2em; */
-  padding-right: 0.05em;
-  margin-top:0px;
-  /* padding-bottom: 0.1em; */
-  overflow: hidden;
-}
-
-.ml10 .letter {
-  display: inline-block;
-  line-height: 1em;
-  transform-origin: 0 0;
-}
-/* #tour
-{
-  text-decoration: underline;
-} */
-
-#about, #philosophy, #diningfitness, #studyspots, #outdoors, #panelWelcome
-{
-  display: none;
 }

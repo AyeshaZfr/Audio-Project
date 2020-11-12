@@ -152,6 +152,8 @@ $(".audio-hider").click(function()
 
 /* --------------------------------------- */
 /* Ayesha's part begins */
+
+// Js Code for side menu and sub MediaElementAudioSourceNode, initally displays are none and these change when relevant links are clicked
 function openNav() {
   document.getElementById("mySidenav").style.width = "275px";
   document.getElementById("header-text").style.marginLeft = "275px";
@@ -186,8 +188,7 @@ function closeSubMenu() {
   document.getElementById("subMenu03").style.width = "0";
   document.getElementById("header-text").style.marginLeft = "275px";
 };
-/* Ayesha's part ends */
-/* --------------------------------------- */
+
 // function noscroll() {
 //   window.scrollTo(0, 0);
 // }
@@ -199,6 +200,8 @@ function closeSubMenu() {
 //     window.removeEventListener('scroll', noscroll);
 //   }, 1000);
 // };
+// -----------------------------------------------
+// Animation styles for landing text animations
 
 anime.timeline({loop: false})
   .add({
@@ -252,6 +255,8 @@ function later(){
   },650);
 };
 
+// // -----------------------------------------------
+// JS Code to make sure all elemets except landing video are diplayed initially and then they appear once the user clicks on relevant links
 document.getElementById("phil_link").addEventListener("click", function(){
   document.getElementById("philosophy").style.display = "block";
 });
@@ -269,34 +274,71 @@ document.getElementById("tour00").addEventListener("click", function(){
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
 document.getElementById("tour01").addEventListener("click", function(){
 
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
 document.getElementById("tour02").addEventListener("click", function(){
 
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
 document.getElementById("tour2").addEventListener("click", function(){
 
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
 document.getElementById("tour3").addEventListener("click", function(){
 
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
 document.getElementById("tour4").addEventListener("click", function(){
 
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
+  document.getElementById("philosophy").style.display = "block";
+  document.getElementById("about").style.display = "block";
 });
+
+// -----------------------------------------------
+// JS Code to add a button that directs the user to the top of the page
+//Get the button:
+mybutton = document.getElementById("topBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+};
+
+/* Ayesha's part ends */
+/* --------------------------------------- */
