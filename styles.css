@@ -129,55 +129,55 @@ a
 
 #palms
 {
-  background: url("images/palms-day.JPG");
+  background: url("images/palms.jpg");
   background-size: cover;
 }
 
 #highline
 {
-  background: url("images/highline-day.JPG");
+  background: url("images/highline.jpg");
   background-size: cover;
 
 }
 
 #welcomecenter
 {
-  background: url("images/welcomecenter-day.JPG");
+  background: url("images/welcomecenter.jpg");
   background-size: cover;
 
 }
 
 #marketplace
 {
-  background: url("images/marketplace-day.JPG");
+  background: url("images/marketplace.jpg");
   background-size: cover;
 
 }
 
 #d2
 {
-  background: url("images/d2-day.JPG");
+  background: url("images/d2.jpg");
   background-size: cover;
 
 }
 
 #fitness
 {
-  background: url("images/fitness-day.JPG");
+  background: url("images/fitness.jpg");
   background-size: cover;
 
 }
 
 #librarycafe
 {
-  background: url("images/librarycafe-day.JPG");
+  background: url("images/librarycafe.jpg");
   background-size: cover;
 
 }
 
 #library
 {
-  background: url("images/library-day.JPG");
+  background: url("images/library.jpg");
   background-size: cover;
 
 }
@@ -632,6 +632,8 @@ video {
 {
   background-color: white;
   color: #58008E;
+  margin-bottom: -50px;
+
 
 }
 
