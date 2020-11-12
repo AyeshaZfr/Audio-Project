@@ -4,12 +4,19 @@
   src: url(Gotham_Book_Regular.otf);
 }
 
+@font-face
+{
+  font-family: 'verdana';
+  src: url(verdana/VERDANAO.ttf);
+}
+
 /* #58008E
 #9964BB
 #9960BF
 #C2A0D9
 #CCB8D9
 #F2F2F2
+
 
 font-family: 'Piazzolla', serif;
 font-family: 'Kalam', cursive;
@@ -67,7 +74,7 @@ a
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
-  font-family: 'Kalam', cursive;
+  font-family: 'verdana', bold;
   font-size: 2rem;
   color: #58008E;
 
