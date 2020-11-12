@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Library Cafe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="landing">
+    <div class="navbar">
+
+      <div class="navbar_elem">
+
+        <div class="left">
+          <li><span onclick="openNav()"><img src="images/menu.png" alt="#" width="30px" style="padding: 10px;"></i></span></li>
+          <a href="index.html"><li id="heroImgWrapper"><img id="heroImg" src="images/nyuad-logo.png" alt="" height="50px"></li></a>
+        </div>
+
+        <!-- <div class="right">
+          <a href="#philosophy">
+            <li class="navlinks">Our Philosophy</li>
+          </a>
+          <a href="#about">
+            <li class="navlinks">About Us</li>
+          </a>
+          <li><a href="https://nyuad.nyu.edu/en/" target="_blank"><img src="images/nyuad-icon.jpg" alt="#" width="40px" style="padding: 10px;"></a></li>
+          <li><a href="https://www.facebook.com/NYUAD/" target="_blank"><img src="images/facebook-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+          <li><a href="https://www.instagram.com/nyuabudhabi/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+          <li><a href="https://twitter.com/NYUAbuDhabi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+        </div> -->
+
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><span onclick="openSubMenu1()">Outdoors &#187;</span></a>
+        <a href="#"><span onclick="openSubMenu2()">Dining & Fitness &#187;</span></a>
+        <a href="#"><span onclick="openSubMenu3()">Study Spots &#187;</span></a>
+      </div>
+      <div id="mySidenav2" class="sidenav2">
+
+        <div id="subMenu01">
+          <a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+          <a href="welcomecenter-day.html"><span>Welcome Center</span></a> <br>
+          <a href="highline-day.html"><span>High line</span></a> <br>
+          <a href="palms-day.html"><span>Palms</span></a> <br>
+        </div>
+
+        <div id="subMenu02"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()"> &#60;</a>
+          <a href="marketplace-day.html"><span>Marketplace</span></a> <br>
+          <a href="d2-day.html"><span>Dining Hall (D2)</span></a> <br>
+          <a href="fitness-day.html"><span>Fitness Center</span></a> <br>
+        </div>
+
+        <div id="subMenu03"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+          <a href="marketplace-day.html"><span>Marketplace</span></a> <br>
+          <a href="library-day.html"><span>Library</span></a> <br>
+          <a href="librarycafe-day.html"><span>Library Cafe</span></a> <br>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="img-box">
+
+
+    <iframe class="virtual" width="100%" height="100%" frameborder="0" src="https://momento360.com/e/u/493ca9ed02d345d7a4ba479812bcd61a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&autoplay-annotations=true" allowfullscreen></iframe>
+    <audio class="audio-360" src="sounds/librarycafe-night.mp3" autoplay loop></audio>
+
+    <img class="audio-hider btn" src="images/audio.png" alt="">
+    <a href="librarycafe-day.html">
+      <img class="day btn" src="images/sun1.png" alt="">
+    </a>
+    <a href="librarycafe-night.html">
+      <img class="night btn" src="images/night.png" alt="">
+    </a>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
