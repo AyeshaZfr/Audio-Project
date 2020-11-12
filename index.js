@@ -57,6 +57,7 @@ $(".location").hover(function() {
 
 $(".location-name").click(function()
 {
+  console.log(a);
   a.pause();
 });
 
