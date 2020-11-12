@@ -802,6 +802,7 @@ video {
 {
 }
 
+/* pictures of about us */
 .display
 {
   height: 200px;
@@ -814,6 +815,7 @@ video {
 
 }
 
+/* holder for icons */
 .icons-holder
 {
   display: flex;
@@ -825,6 +827,7 @@ video {
   margin: auto;
 }
 
+/* styles of icon images */
 .icons-holder img
 {
   display: block;
@@ -834,6 +837,7 @@ video {
   text-align: center;
 }
 
+/* effect on icons */
 .icons-holder img:hover
 {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
@@ -844,8 +848,9 @@ video {
   transform: scale(1.5);
 }
 
-.btn-1 {
+/* button styles */
 
+.btn-1 {
   background: linear-gradient(to top, rgba(120,64,153,1), rgba(189,137,221,1) );
 /*
   background-image: -webkit-linear-gradient(top, #A6212C, #9d0208);
@@ -874,6 +879,7 @@ video {
   width: 150px;
 }
 
+/* button hover effect */
 .btn-1:hover {
   /* border: solid #337FED 1px; */
   background: black;
@@ -888,6 +894,7 @@ video {
   text-decoration: none;
 }
 
+/* button styles */
 .btn-2 {
   /* background: linear-gradient(to top, rgba(88,0,142,1), rgba(189,137,221,1) ); */
   background-color: rgba(88,0,142,1);
@@ -916,6 +923,7 @@ background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(245,245,245,1) 5
   /* min-width: 80px; */
 }
 
+/* button hover effect */
 .btn-2:hover {
   /* border: solid #337FED 1px; */
   background: black;
