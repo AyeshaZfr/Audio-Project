@@ -246,6 +246,7 @@ a
 {
   vertical-align: middle;
   height: 50px;
+  width: 100% !important;
   position: relative;
   z-index: 1000;
 
@@ -253,7 +254,7 @@ a
 
 .navbar_elem
 {
-  width: 100%;
+  width: 94%;
   display: inline;
   padding-left: 10px;
   display: flex;
@@ -271,7 +272,7 @@ a
 
 .navbar_elem .left
 {
-  width: 50%;
+  width: 47%;
   align-items: left;
   align-content: left;
   position: relative;
@@ -280,9 +281,10 @@ a
 .navbar_elem .right
 {
   display: inline;
-  width: 50%;
+  width: 47%;
   text-align: right;
-  margin-right: 2.5%;
+  /* margin-right: 2.5%; */
+  overflow-x: hidden;
   position: relative;
   z-index: 1000;
 }
