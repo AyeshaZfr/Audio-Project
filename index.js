@@ -46,7 +46,7 @@
 var a = new Audio();
 $(".location").hover(function() {
   name = $(this).attr("id");
-  var name_audio = 'sounds/' + name + '.mp3';
+  var name_audio = 'sounds/' + name + '-day.mp3';
   a.src = name_audio;
   a.play();
   console.log($(".audio-360").attr("src"));
@@ -78,7 +78,7 @@ $(".audio-hider").click(function()
     c=false;
 }
 });
-// 
+//
 // for (int i = 0; i < 9; i++)
 // {
 //   var n = $(".location")[i].attr("id");
@@ -245,49 +245,49 @@ function later(){
 
 document.getElementById("phil_link").addEventListener("click", function(){
   document.getElementById("philosophy").style.display = "block";
-}); 
+});
 document.getElementById("about_link").addEventListener("click", function(){
   document.getElementById("about").style.display = "block";
-}); 
+});
 
 
 document.getElementById("mainBtn").addEventListener("click", function(){
-  
+
   document.getElementById("panelWelcome").style.display = "block";
-}); 
+});
 document.getElementById("tour00").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
 document.getElementById("tour01").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
 document.getElementById("tour02").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
 document.getElementById("tour2").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
 document.getElementById("tour3").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
 document.getElementById("tour4").addEventListener("click", function(){
-  
+
   document.getElementById("outdoors").style.display = "block";
   document.getElementById("studyspots").style.display = "block";
   document.getElementById("diningfitness").style.display = "block";
-}); 
+});
