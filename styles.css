@@ -36,8 +36,6 @@ html {
   background-image: url('images/bg01.png');
   background-color: #58008E;
   background-position: center;
-  /* z-index: 2;
-  background-size: contain; */
   background-repeat: repeat;
   font-family: 'Gotham';
   padding: 0;
@@ -55,8 +53,8 @@ a
   text-decoration: none;
 }
 
+/* class styles for the tour map */
 .tour {
-
   width: 90%;
   position: relative;
   height: 120vh;
@@ -66,8 +64,7 @@ a
   border-radius: 10px;
 }
 
-
-
+/* section heading div */
 .section-header {
   width: 50%;
   position: relative;
@@ -81,6 +78,7 @@ a
 
 }
 
+/* container for content on location page */
 .container {
   margin: 0;
   display: inline;
@@ -88,6 +86,7 @@ a
   position: relative;
 }
 
+/* to hold the map */
 .map {
   height: 75%;
   width: 90%;
@@ -96,6 +95,7 @@ a
   position: relative;
 }
 
+/* map comes up with unnecessary details on the webpage. this div is used to hide that */
 .hider {
   height: 50px;
   width: 95%;
@@ -107,6 +107,7 @@ a
   margin-bottom: -30px;
 }
 
+/* to hold the 3 locations */
 .section-location {
   width: 70%;
   position: relative;
@@ -114,6 +115,7 @@ a
   text-align: center;
 }
 
+/* to hold the 3 locations */
 .locations-container {
   display: flex;
   flex-direction: row;
@@ -124,6 +126,7 @@ a
   z-index: 20;
 }
 
+/* to hold one location */
 .location {
   margin: 0 auto;
   width: 30%;
@@ -131,9 +134,10 @@ a
   background: url("images/download.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* z-index: 25; */
   border-radius: 5px;
 }
+
+/* the following provides background images to all the location holders */
 
 #palms
 {
@@ -190,22 +194,18 @@ a
 
 }
 
-
+/* to provide a hover effect */
 .location:hover {
   display: block;
   box-shadow: 200px;
-
-  /* background-size: 450px; */
 }
-
-/* .location:hover img{
-  transform: scale(1.2);
-} */
 
 .location:hover .location-hover {
   display: block;
   box-shadow: 2px 2px 7px 0 #000000;
 }
+
+/* the following style the effect on hover */
 
 .location-hover {
   background: rgb(135, 105, 158);
@@ -216,8 +216,6 @@ a
   position: relative;
   margin-bottom: -200px;
   border-radius: 5px;
-
-  /* bottom: 200px; */
   box-shadow: 20px;
 }
 
@@ -241,16 +239,9 @@ a
   width: 100%;
   color: white;
   text-align: justify;
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
-.image-360 {
-  width: 400px;
-  height: 400px;
-}
-
-/* --------------------------------------- */
-/* Ayesha's part begins */
 
 /* The side navigation menu */
 
@@ -261,7 +252,6 @@ a
   height: 50px;
   position: relative;
   z-index: 1000;
-
 }
 
 .navbar_elem
@@ -687,9 +677,9 @@ video {
   color: #2b0346;/* Add a dark-grey background on hover */
 }
 
- /* ----------------------------------------------
- Ayesha's part ends */
+
 /* Location page  */
+/* 360 image holder */
 .img-box {
   height: 100vh;
   width: 100%;
@@ -699,43 +689,38 @@ video {
   position: absolute;
 }
 
-.textover {
-  position: absolute;
-  top: 200px;
-  left: 500px;
-}
-
+/* style for audio controls */
 .audio-360 {
   position: absolute;
   height: 25px;
   bottom: 157px;
   right: 65px;
   width: 280px;
-
 }
 
+/* to toggle audio controls */
 .audio-hider
 {
   z-index: 5;
   bottom: 150px;
   width: 45px;
-
 }
 
+/* button for day view */
 .day
 {
   top: 150px;
   width: 45px;
-
 }
 
+/* button for night view */
 .night
 {
   top: 205px;
   width: 45px;
-
 }
 
+/* button and its effects */
 .btn
 {
   position: absolute;
@@ -835,7 +820,7 @@ video {
 
 .display:hover
 {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   /* box-shadow: 1px 1px 5px 0 #000000; */
 
 }
