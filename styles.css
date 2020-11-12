@@ -10,20 +10,6 @@
   src: url(verdana/VERDANAO.ttf);
 }
 
-/* #58008E
-#9964BB
-#9960BF
-#C2A0D9
-#CCB8D9
-#F2F2F2
-
-
-font-family: 'Piazzolla', serif;
-font-family: 'Kalam', cursive;
-font-family: 'Public Sans', sans-serif;
-font-family: 'Caveat Brush', cursive;
-font-family: 'Freckle Face', cursive; */
-
 header { border:1px black solid; }
 
 main {
@@ -48,6 +34,7 @@ html {
   margin: 0;
   background-color: #58008E;
   font-family: 'Gotham';
+  overflow: hidden !important;
 }
 
 a
