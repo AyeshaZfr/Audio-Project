@@ -27,6 +27,7 @@ main {
 html {
   scroll-behavior: smooth;
   background-image: url('images/bg01.png');
+  background-color: #58008E;
   background-position: center;
   /* z-index: 2;
   background-size: contain; */
