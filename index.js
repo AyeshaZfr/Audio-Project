@@ -57,7 +57,7 @@ $(".location").hover(function() {
 
 $(".location-name").click(function()
 {
-  a.src = "silence.mp3";
+  // a.src = "silence.mp3";
   console.log(a);
   a.pause();
 });
