@@ -1,48 +1,5 @@
 
-// $(document).ready(function()
-// {
-//   var a = new Audio();
-//   a.src = $(".audio-360").attr("src");
-//   a.play();
-// });
-
-// alert("hello");
-// // var location = $(".location");
-// // var overlay = $("span");
-//
-// $(".location").hover(mouseI, mouseO);
-//
-// function mouseI()
-// {
-//   $(".location-hover").css("display","block");
-// }
-//
-// function mouseO()
-// {
-//   $(".location-hover").css("display","none");
-// }
-//
-// $(".location").click(function()
-// {
-//   alert("clicked");
-// });
-//
-// var a = new Audio();
-// a.src = $(".audio-360").attr("src");
-// a.play();
-//
-// $(".location").click(function() {
-//   name = $(this).attr("id");
-//   console.log(name);
-//   var name_img = 'images/' + name + '.jpeg';
-//   $(".image-36").attr("src", name_img);
-//   console.log($(".image-36").attr("src"));
-//   var name_audio = 'sounds/' + name + '.mp3';
-//   $(".audio-360").attr("src", name_audio);
-//   console.log($(".audio-360").attr("src"));
-//   //window.location = "location.html";
-// });
-
+// JS and jquery code to play audios on hover of location blocks
 var a = new Audio();
 $(".location").hover(function() {
   name = $(this).attr("id");
@@ -55,6 +12,7 @@ $(".location").hover(function() {
   a.pause();
 });
 
+// pause the video when a location is selected and opened in other tab
 $(".location-name").click(function()
 {
   // a.src = "silence.mp3";
@@ -64,11 +22,11 @@ $(".location-name").click(function()
 
 
 
-
 var c = false;
 // $(".audio-360").attr("controls", true);
 $(".audio-360").attr("controls", false);
 
+// to toggle audio controls on and off as user desires on the particular location 360 view
 $(".audio-hider").click(function()
 {
   if (c == false)
@@ -87,71 +45,8 @@ $(".audio-hider").click(function()
     c=false;
 }
 });
-//
-// for (int i = 0; i < 9; i++)
-// {
-//   var n = $(".location")[i].attr("id");
-//   var name_img = 'images/' + n + '-day.JPG';
-//   console.log(name_img);
-//   $(".location")[i].style.background = "url("name_img");";
-// }
-
-
-
-
-  // else
-  // {
-  //   $(".audio-360").attr("controls", false);
-  //   console.log("clicked");
-  //   console.log(c);
-  //
-  //   c=0;
-
-  // if ($(".audio-360").controls == "controls")
-  // {
-  //   $(".audio-360").attr("controls", false);
-  //   console.log("clicked");
-  // }
-  // console.log(($(".audio-360").attr("controls")));
-  // alert(($(".audio-360").attr("controls")))
-
-
-// $(".audio-shower").click(function() {
-//     $(".audio-360").attr("controls", false);
-// });
-
-
-// $(".audio-hider").hover(function()
-// {
-//   $(".audio-360").controls = true;
-//   console.log("clicked");
-//   console.log($(".audio-360"));
-// }, function()
-// {
-//   console.log("clicked");
-//   console.log($(".audio-360"));
-//   $(".audio-360").controls = true;
-// });
-
-// $(".location").hover(function()
-// {
-//   name = $(this).attr("id");
-//   console.log(name);
-//   var name_img = 'images/' + name + '.jpeg';
-//   $(".image-36").attr("src", name_img);
-//   console.log($(".image-36").attr("src"));
-//   var name_audio = 'sounds/' + name + '.mp3';
-//   $(".audio-360").attr("src", name_audio);
-//   console.log($(".audio-360").attr("src"));
-// });
-
-// var name-file = 'images/' + name + '.jpeg';
-// $(".image-360").attr("src", "images/palms.jpeg") ;
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-
-/* --------------------------------------- */
-/* Ayesha's part begins */
 
 // Js Code for side menu and sub MediaElementAudioSourceNode, initally displays are none and these change when relevant links are clicked
 function openNav() {
@@ -339,6 +234,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
-
-/* Ayesha's part ends */
-/* --------------------------------------- */
